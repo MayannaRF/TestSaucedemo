@@ -23,6 +23,28 @@ O objetivo é validar o comportamento da aplicação nas funcionalidades princip
 
 ---
 
+## 🗂️ Estrutura do Repositório
+cypress/
+└── e2e/
+ ├── error_user/
+  │   ├── error_user.cy.js       
+  │   └── error_user.feature    
+ ├── fluxo_compra/
+  │   ├── fluxo_compra.cy.js     
+  │   └── fluxo_compra.feature   
+ ├── login/
+  │   ├── login.cy.js            
+  │   └── login.feature          
+ ├── ordenacao/
+  │   ├── ordenacao.cy.js        
+  │   └── ordenacao.feature      
+ ├── others_usernames/
+  │   ├── performance_glitch_user.cy.js 
+  │   └── problem_user.cy.js            
+└── ... (outras pastas de funcionalidades)      
+
+---
+
 ## 📋 Casos de Teste Cobertos
 
 - ✅ Login
