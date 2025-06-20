@@ -24,6 +24,7 @@ O objetivo é validar o comportamento da aplicação nas funcionalidades princip
 ---
 
 ## 🗂️ Estrutura do Repositório
+```
 cypress/
 └── e2e/
  ├── error_user/
@@ -42,7 +43,7 @@ cypress/
   │   ├── performance_glitch_user.cy.js 
   │   └── problem_user.cy.js            
 └── ... (outras pastas de funcionalidades)      
-
+```
 ---
 
 ## 📋 Casos de Teste Cobertos
