@@ -1,0 +1,11 @@
+{
+  "name": "raro-qa-cypress",
+  "version": "1.0.0",
+  "description": "Prova Técnica QA - Raro Labs com Cypress",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^12.0.0"
+  }
+}
